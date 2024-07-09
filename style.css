@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+    position: relative;
+}
+body {
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+li a{
+    color: aliceblue;
+    display: inline;
+    margin-right: 20px;
+}
+.navbar{
+    background-color: darkblue;
+    color: rgb(246, 244, 244);
+    border-color: darkblue;
+    font-size: 20px;
+    padding: 10px;
+}
+li a:hover{
+    color: crimson;
+    cursor: pointer;
+}
